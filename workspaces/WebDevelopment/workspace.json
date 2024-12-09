@@ -2,7 +2,7 @@
   "description": "Kasm Web Development Desktop Package",
   "docker_registry": "https://index.docker.io/v1/",
   "image_src": "icon.png",
-  "name": "oytunistrator/kasm-web-dev:dev",
+  "name": "oytunistrator/kasm-web-dev:1.0",
   "run_config": {
     "hostname": "kasm"
   },
