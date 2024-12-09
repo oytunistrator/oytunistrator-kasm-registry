@@ -5,7 +5,7 @@ const nextConfig = {
     name: 'Oytunistrator Repository',
     description: 'Oytunistrator Repository for Kasm supported workspaces.',
     icon: '/img/logo.svg',
-    listUrl: 'https://github.com/oytunistrator/oytunistrator-kasm-registry/',
+    listUrl: 'https://oytunistrator.github.io/oytunistrator-kasm-registry/',
     contactUrl: 'https://github.com/oytunistrator/oytunistrator-kasm-registry/issues',
   },
   reactStrictMode: true,
