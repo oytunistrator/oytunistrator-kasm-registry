@@ -27,18 +27,11 @@ Follow the steps below to get started with this project:
 
 ### Setting Up the Project
 
-1. Clone the repository to your local machine:
+Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/oytunistrator/oytunistrator-kasm-registry.git
 cd oytunistrator-kasm-registry
-```
-
-2. Build your Docker images and push them to the appropriate registry:
-
-```bash
-docker build -t kasm.registry.com/my-custom-image:latest .
-docker push kasm.registry.com/my-custom-image:latest
 ```
 
 ### Using the Image in Kasm Platform
