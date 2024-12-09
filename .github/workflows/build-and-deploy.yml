@@ -17,6 +17,7 @@ jobs:
         run: |
           npm ci --prefix processing 
           npm ci --prefix site
+          echo '1.0' > public/versions.txt
           ./build_all_branches.sh
 
       - name: Deploy
