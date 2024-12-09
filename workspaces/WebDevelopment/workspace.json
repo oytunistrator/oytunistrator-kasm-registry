@@ -1,25 +1,20 @@
 {
+  "friendly_name": "Web Development",
+  "image_src": "web-development.png",
   "description": "Kasm Web Development Desktop Package",
-  "docker_registry": "https://index.docker.io/v1/",
-  "image_src": "icon.png",
   "name": "oytunistrator/kasm-web-dev:1.0",
-  "run_config": {
-    "hostname": "kasm"
-  },
-  "exec_config": {
-    "go": {
-      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
-    },
-    "assign": {
-      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
-    }
-  },
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://index.docker.io/v1/",
   "categories": [
     "Development"
   ],
-  "friendly_name": "Web Development",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
   "architecture": [
-    "amd64",
-    "arm64"
+    "amd64"
   ]
 }
