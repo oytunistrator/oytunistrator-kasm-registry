@@ -21,7 +21,7 @@
     "1.13.x",
     "1.14.x",
     "1.15.x",
-      "1.16.x"
+    "1.16.x"
   ],
   "uncompressed_size_mb": 2170,
   "exec_config": {
