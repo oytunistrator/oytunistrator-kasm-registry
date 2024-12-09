@@ -44,7 +44,3 @@ cd oytunistrator-kasm-registry
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-This should give a basic but complete overview of the repository in English. Let me know if you'd like to modify or add more details!
