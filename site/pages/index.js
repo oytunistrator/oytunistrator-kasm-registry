@@ -16,7 +16,7 @@ export default function Home({ searchText }) {
       .then((workspaces) => {
         let wsversions = []
         workspaces.workspaces.forEach((workspace) => {
-          if(workspace.compatibility) {
+          if(workspace.compatibility !== undefined && workspace.compatibility) {
             workspace.compatibility.forEach((v) => {
               const value = parseFloat(v)
               if(wsversions.indexOf(value) === -1) {
