@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
+  output: 'export',
+  distDir: '../public',
   env: {
     name: 'Oytunistrator Repository',
     description: 'Oytunistrator Repository for Kasm supported workspaces.',
@@ -9,7 +11,6 @@ const nextConfig = {
     contactUrl: 'https://github.com/oytunistrator/oytunistrator-kasm-registry/issues',
   },
   reactStrictMode: true,
-  swcMinify: true,
   basePath: '/oytunistrator-kasm-registry/1.0',
   trailingSlash: true,
   images: {
