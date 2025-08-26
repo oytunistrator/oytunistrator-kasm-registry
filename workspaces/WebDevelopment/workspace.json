@@ -1,34 +1,41 @@
 {
-  "friendly_name": "Web Development",
-  "image_src": "web-development.png",
   "description": "Kasm Web Development Desktop Package",
-  "name": "oytunistrator/kasm-web-dev:1.0",
-  "cores": 2,
-  "memory": 2768,
-  "gpu_count": 0,
-  "cpu_allocation_method": "Inherit",
   "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "web-development.png",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+    }
+  },
   "categories": [
     "Development"
   ],
-  "require_gpu": false,
-  "enabled": true,
-  "image_type": "Container",
+  "friendly_name": "Web Development",
   "architecture": [
     "amd64"
   ],
-    "compatibility": [
-    "1.16.x",
-    "1.17.x",
-    "1.18.x"
-  ],
-  "uncompressed_size_mb": 2170,
-  "exec_config": {
-    "assign": {
-      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "oytunistrator/kasm-web-dev:1.0",
+      "uncompressed_size_mb": 2170,
+      "available_tags": [
+        "1.0"
+      ]
     },
-    "go": {
-      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
+    {
+      "version": "1.18.x",
+      "image": "oytunistrator/kasm-web-dev:1.0",
+      "uncompressed_size_mb": 2170,
+      "available_tags": [
+        "1.0"
+      ]
     }
-  }
+  ]
 }
