@@ -23,7 +23,7 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "oytunistrator/kasm-web-dev:1.0",
+      "image": "oytunistrator/kasm-web-dev:1.1",
       "uncompressed_size_mb": 2170,
       "available_tags": [
         "1.0",
@@ -32,7 +32,7 @@
     },
     {
       "version": "1.18.x",
-      "image": "oytunistrator/kasm-web-dev:1.0",
+      "image": "oytunistrator/kasm-web-dev:1.1",
       "uncompressed_size_mb": 2170,
       "available_tags": [
         "1.0",
